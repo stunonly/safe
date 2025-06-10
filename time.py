@@ -1,6 +1,6 @@
 import time
 
-def simulate_clock(hours=3):
+def simulate_clock(hours=1):
     total_seconds = hours * 60 * 60
     for sec in range(total_seconds):
         hr = sec // 3600
@@ -10,7 +10,7 @@ def simulate_clock(hours=3):
         time.sleep(1)
 
 simulate_clock()    
+l
 
 
-### test safe 
 
